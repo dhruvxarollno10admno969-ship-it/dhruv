@@ -1,3 +1,5 @@
+import About from "./About";
+
 export default function Hero() {
   return (
     <>
@@ -102,12 +104,13 @@ export default function Hero() {
 
       {/* ================= ABOUT ================= */}
 
-      <section
+      {/* <section
         id="about"
         className="flex min-h-screen items-center justify-center bg-[#0D0D0D]"
       >
         <h2 className="text-6xl font-bold text-white"></h2>
-      </section>
+      </section> */}
+      <About/>
 
       {/* ================= HOKAGES ================= */}
 
