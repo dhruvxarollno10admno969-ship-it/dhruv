@@ -1,13 +1,12 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-
-function App() {
+import About from "./components/About";
+export default function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <About />
     </>
   );
 }
-
-export default App;
