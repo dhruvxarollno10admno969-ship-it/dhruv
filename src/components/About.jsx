@@ -5,7 +5,7 @@ export default function About() {
   className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
   style={{
     backgroundImage:
-      "url('/images/konoha-bg.jpg')",
+      "url('/village.jpg')",
   }}
 >
   {/* Dark Overlay */}
@@ -57,7 +57,7 @@ export default function About() {
     </div>
 
     {/* Button */}
-    <button className="bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-full text-lg font-semibold transition duration-300 -mt-12">
+    <button className="bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-full text-lg font-semibold transition duration-300 left-5 ">
       Explore Characters
     </button>
 

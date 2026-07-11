@@ -9,10 +9,10 @@ export default function Navbar() {
   const navLinks = [
     "Home",
     "About",
-    "Hokages",
     "Characters",
     "Jutsu",
     "Villages",
+    "Hokage",
   ];
 
   useEffect(() => {

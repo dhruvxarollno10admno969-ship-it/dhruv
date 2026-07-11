@@ -114,12 +114,7 @@ export default function Hero() {
 
       {/* ================= HOKAGES ================= */}
 
-      <section
-        id="hokages"
-        className="flex min-h-screen items-center justify-center bg-[#111111]"
-      >
-        <h2 className="text-6xl font-bold text-white">Hokages</h2>
-      </section>
+      
 
       {/* ================= CHARACTERS ================= */}
 
