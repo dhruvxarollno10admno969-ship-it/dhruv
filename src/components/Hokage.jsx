@@ -18,24 +18,26 @@ export default function Hokage() {
 </div>
 
 
-      <div className="max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+   <div className="max-w-[1800px] mx-auto grid grid-cols-7 gap-8 px-4">
+  {/* 7 Cards */}
+
         {hokages.map((hokage) => (
           <div
             key={hokage.id}
-            className="group relative h-[500px] overflow-hidden rounded-3xl border border-orange-500/30 cursor-pointer shadow-lg"
+        className="group relative h-[420px] overflow-hidden rounded-3xl border border-orange-500/30 cursor-pointer shadow-lg"
           >
             {/* Image */}
             <img
               src={hokage.img}
               alt={hokage.name}
-              className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+             className="w-full h-full object-contain transition-all duration-700 group-hover:scale-105"
             />
 
             {/* Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent group-hover:from-black group-hover:via-black/80 transition-all duration-500"></div>
 
             {/* Default */}
-            <div className="absolute bottom-8 left-6 transition-all duration-500 group-hover:-translate-y-40">
+            <div className="absolute bottom-8 left-6 transition-all duration-500 group-hover:-translate-y-32">
               <h2 className="text-6xl font-black text-orange-500">
                 {hokage.id}
               </h2>
@@ -50,7 +52,7 @@ export default function Hokage() {
             </div>
 
             {/* Hover Content */}
-            <div className="absolute bottom-2 left-2 w-full p-6 translate-y-full group-hover:translate-y-0 transition-all duration-500">
+            <div className="absolute inset-x-0 bottom-0 p-6 translate-y-full group-hover:translate-y-0 transition-all duration-500 bg-black/80">
               <h2 className="text-3xl font-bold text-orange-400 mb-4">
                 {hokage.name}
               </h2>

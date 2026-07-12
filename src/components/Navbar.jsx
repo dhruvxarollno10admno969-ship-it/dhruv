@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Menu, Search, X } from "lucide-react";
-
+import { Menu, X } from "lucide-react";
+import SearchPopup from "./searchbar";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [active, setActive] = useState("Home");
@@ -10,9 +10,9 @@ export default function Navbar() {
     "Home",
     "About",
     "Characters",
+    "Hoakage",
     "Jutsu",
     "Villages",
-    "Hokage",
   ];
 
   useEffect(() => {
@@ -100,7 +100,8 @@ export default function Navbar() {
               hover:scale-110
             "
             >
-              <Search size={22} strokeWidth={1.8} />
+              
+              <SearchPopup />
             </button>
 
             <button
