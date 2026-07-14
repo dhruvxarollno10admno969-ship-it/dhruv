@@ -30,7 +30,7 @@ function Villains() {
       village: "Hidden Rain",
       rank: "Leader of Akatsuki",
       image: "/images/villains/pain.jpg",
-      quote: "Feel pain. Think about pain. Accept pain. Know pain.",
+      quote: "Feel pain. Think about pain. Accept pain. Know pain. Those who don't know pain will nerver understand true peace.  ",
       description:
         "Leader of Akatsuki who possessed the legendary Rinnegan."
     },
@@ -54,7 +54,67 @@ function Villains() {
       quote: "There is no meaning to life except the meaning you give it.",
       description:
         "A legendary ninja obsessed with immortality and forbidden jutsu."
-    }
+    },
+     {
+      id:6,
+      name: "Sasori",
+      village: "Hidden Sand",
+      rank: "Akatsuki Member",
+      image: "/images/villains/orochimaru.jpg",
+      quote: "True beauty is something that lasts forever.",
+      description:
+        "A puppet master who transformed himself into a human puppet to achieve eternal life."
+    },
+         {
+      id:7,
+      name: "Deidara",
+      village: "Hidden Stone",
+      rank: "Akatsuki Member",
+      image: "/images/villains/orochimaru.jpg",
+      quote: "Art is an explosion!.",
+      description:
+        "An explosive clay artist who believed true art existed only in a single moment of destruction."
+    },
+           {
+      id:8,
+      name: "Kisame Hoshigaki",
+      village: "Hidden Mist",
+      rank: "Akatsuki Member",
+      image: "/images/villains/orochimaru.jpg",
+      quote: "Truth is only an illusion.",
+      description:
+        "Known as the Monster of the Hidden Mist, he wielded Samehada and possessed enormous chakra."
+    },
+           {
+      id:9,
+      name: "Kakuzu",
+      village: "Hidden Waterfall",
+      rank: "Akatsuki Member",
+      image: "/public/villains/5 heart.png",
+      quote: "Money is the only thing worth trusting",
+      description:
+        "A bounty hunter with five hearts, making him nearly impossible to kill."
+    },
+    {
+      id:10,
+      name: "Hidan",
+      village: "Hidden Hot Water",
+      rank: "Akatsuki Member",
+      image: "/public/villains/hidan.png",
+      quote: "Pain is the way to prove faith.",
+      description:
+        "An immortal follower of Jashin who performed deadly rituals on his enemies."
+    },
+    {
+      id:11,
+      name: "Kaguya Ōtsutsuki",
+      village: "None (Ōtsutsuki Clan)",
+      rank: "Final Boss / Progenitor of Chakra",
+      image: "/Kaguya.png",
+      quote: "Chakra belongs to me alone",
+      description:
+        "The first being on Earth to possess chakra. Kaguya consumed the Chakra Fruit and became immensely powerful. She was the final antagonist of Naruto Shippuden, capable of manipulating dimensions and wielding the Byakugan and Rinne Sharingan."
+    },
     
   ];
 
