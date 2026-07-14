@@ -10,9 +10,9 @@ export default function Navbar() {
     "Home",
     "About",
     "Characters",
-    "Hoakage",
+    "Hokage",
     "Jutsu",
-    "Villages",
+    "Villans",
   ];
 
   useEffect(() => {

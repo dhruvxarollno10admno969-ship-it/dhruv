@@ -55,16 +55,7 @@ export default function About() {
       </div>
 
     </div>
-
-    {/* Button */}
-    <div className="flex justify-center leading-9 mt-9">
-      <button className="bg-orange-500 hover:bg-orange-600
-       px-8 py-4 rounded-full text-lg font-semibold 
-       transition duration-300 left-5 
-       hover:shadow-[0_0_35px_rgba(249,115,22,.45)]">
-        Explore Characters
-      </button>
-    </div>
+    
     {/* Scroll */}
 
         <div className="absolute -bottom-50 left-1/2 -translate-x-1/2 animate-bounce">
