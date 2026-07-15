@@ -13,6 +13,7 @@ export default function Navbar() {
     "Hokage",
     "Jutsu",
     "Villans",
+    "Teams",
   ];
 
   useEffect(() => {

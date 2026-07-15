@@ -4,6 +4,7 @@ import Hokage from "./components/Hokage";
 import Characters from "./components/characters";
 import Justu from "./components/Justu";
 import Villans from "./components/villans";
+import Team from "./components/team";
 export default function App() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function App() {
       <Hokage />
       <Justu />
       <Villans />
+      <Team />
     </>
   );
 }
