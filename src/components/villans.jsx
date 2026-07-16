@@ -133,7 +133,7 @@ function Villains() {
             <img
               src={v.image}
               alt={v.name}
-              className="w-full h-72 object-cover"
+              className="w-full h-72 object-contain"
             />
 
             <div className="p-4">
