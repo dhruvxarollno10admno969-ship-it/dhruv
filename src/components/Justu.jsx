@@ -115,7 +115,7 @@ const jutsus = [
 
 export default function JutsuSection() {
   return (
-    <section className="min-h-screen bg-black text-white py-20 px-8">
+    <section className="min-h-screen bg-black text-white py-20 px-8" id="jutsu">
       <h1 className="text-5xl font-bold text-center text-orange-500 mb-12">
         Legendary Jutsu
       </h1>
