@@ -163,7 +163,7 @@ export default function Teams() {
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-56 object-cover"
+                      className="w-full h-56 object-contain"
                     />
 
                     <div className="p-5">
