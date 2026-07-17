@@ -119,7 +119,7 @@ export default function Teams() {
             <img
               src={team.image}
               alt={team.name}
-              className="max-w-full h-60 object-contain"
+              className="max-w-full h-60 object-cover"
             />
 
             <div className="p-6">
