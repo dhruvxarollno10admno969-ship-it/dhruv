@@ -51,6 +51,54 @@ export default function Teams() {
       ]
     }
   ];
+ 
+  {
+  id: 2,
+  {
+  id: 2,
+  name: "Team 8",
+  leader: "Kurenai Yuhi",
+  village: "Hidden Leaf Village",
+  image: "/teams/team8.png",
+
+  description:
+    "Team 8 specializes in tracking, reconnaissance, and detection missions. Under Kurenai Yuhi, the team became one of Konoha's finest sensory squads.",
+
+  members: [
+    {
+      name: "Hinata Hyuga",
+      image: "/teams/hinata.png",
+      rank: "Jonin",
+      ability: "Byakugan & Gentle Fist",
+      about:
+        "A member of the Hyuga Clan who later became Naruto Uzumaki's wife."
+    },
+    {
+      name: "Kiba Inuzuka",
+      image: "/teams/kiba.png",
+      rank: "Jonin",
+      ability: "Beast Human Clone",
+      about:
+        "A fearless ninja who fights alongside his loyal partner Akamaru."
+    },
+    {
+      name: "Shino Aburame",
+      image: "/teams/shino.png",
+      rank: "Jonin",
+      ability: "Insect Jutsu",
+      about:
+        "A calm and intelligent shinobi who controls kikaichu insects."
+    },
+    {
+      name: "Kurenai Yuhi",
+      image: "/teams/kurenai.png",
+      rank: "Jonin",
+      ability: "Genjutsu",
+      about:
+        "Leader of Team 8 and one of the Hidden Leaf's best Genjutsu users."
+    }
+  ]
+};
 
   return (
     <section className="min-h-screen bg-black text-white py-20 px-6">
@@ -113,11 +161,13 @@ export default function Teams() {
 
             <div className="relative">
 
-              <img
-                src={selectedTeam.image}
-                alt={selectedTeam.name}
-                className="w-full h-80 object-cover"
-              />
+              <div className="w-full h-80 bg-zinc-900 flex items-center justify-center overflow-hidden object-contain">
+  <img
+    src={selectedTeam.image}
+    alt={selectedTeam.name}
+    className="w-full h-full object-contain"
+  />
+</div>
 
               <button
                 onClick={() => setSelectedTeam(null)}
@@ -213,4 +263,5 @@ export default function Teams() {
 
     </section>
   );
+}
 }

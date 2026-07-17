@@ -63,7 +63,7 @@ const jutsus = [
     rank: "S-Rank",
     type: "Space-Time",
     chakra: "Mangekyou",
-    image: "./kamui-removebg-preview.png",
+    image: "./kamui.png",
     description:
       "Teleports objects and users into another dimension.",
   },

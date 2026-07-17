@@ -9,7 +9,7 @@ function Villains() {
       name: "Madara Uchiha",
       village: "Hidden Leaf",
       rank: "Legendary Shinobi",
-      image: "/images/villains/madara.jpg",
+      image: "villains/madara ten tail.png",
       quote: "Wake up to reality! Nothing ever goes as planned in this accursed world.",
       description:
         "Founder of Konohagakure and one of the strongest shinobi in history."
@@ -19,7 +19,7 @@ function Villains() {
       name: "Obito Uchiha",
       village: "Hidden Leaf",
       rank: "Akatsuki",
-      image: "/images/villains/obito.jpg",
+      image: "villains/tobi.png",
       quote: "In this world, wherever there is light, there are also shadows.",
       description:
         "The masked man known as Tobi who started the Fourth Great Ninja War."
@@ -29,7 +29,7 @@ function Villains() {
       name: "Pain (Nagato)",
       village: "Hidden Rain",
       rank: "Leader of Akatsuki",
-      image: "/images/villains/pain.jpg",
+      image: "/villains/pain.png",
       quote: "Feel pain. Think about pain. Accept pain. Know pain. Those who don't know pain will nerver understand true peace.  ",
       description:
         "Leader of Akatsuki who possessed the legendary Rinnegan."
@@ -39,7 +39,7 @@ function Villains() {
       name: "Itachi Uchiha",
       village: "Hidden Leaf",
       rank: "S-Rank Missing Ninja",
-      image: "/images/villains/itachi.jpg",
+      image: "/villains/itachi.png",
       quote:
         "People live their lives bound by what they accept as correct and true.",
       description:
@@ -50,7 +50,7 @@ function Villains() {
       name: "Orochimaru",
       village: "Hidden Leaf",
       rank: "Legendary Sannin",
-      image: "/images/villains/orochimaru.jpg",
+      image: "villains/nagdevta.png",
       quote: "There is no meaning to life except the meaning you give it.",
       description:
         "A legendary ninja obsessed with immortality and forbidden jutsu."
@@ -60,7 +60,7 @@ function Villains() {
       name: "Sasori",
       village: "Hidden Sand",
       rank: "Akatsuki Member",
-      image: "/images/villains/orochimaru.jpg",
+      image: "/villains/Sasori.png",
       quote: "True beauty is something that lasts forever.",
       description:
         "A puppet master who transformed himself into a human puppet to achieve eternal life."
@@ -70,7 +70,7 @@ function Villains() {
       name: "Deidara",
       village: "Hidden Stone",
       rank: "Akatsuki Member",
-      image: "/images/villains/orochimaru.jpg",
+      image: "/villains/deidara.png",
       quote: "Art is an explosion!.",
       description:
         "An explosive clay artist who believed true art existed only in a single moment of destruction."
@@ -80,7 +80,7 @@ function Villains() {
       name: "Kisame Hoshigaki",
       village: "Hidden Mist",
       rank: "Akatsuki Member",
-      image: "/images/villains/orochimaru.jpg",
+      image: "/villains/kisame.png",
       quote: "Truth is only an illusion.",
       description:
         "Known as the Monster of the Hidden Mist, he wielded Samehada and possessed enormous chakra."
@@ -110,7 +110,7 @@ function Villains() {
       name: "Kaguya Ōtsutsuki",
       village: "None (Ōtsutsuki Clan)",
       rank: "Final Boss / Progenitor of Chakra",
-      image: "/Kaguya.png",
+      image: "/public/villains/Kaguya.png",
       quote: "Chakra belongs to me alone",
       description:
         "The first being on Earth to possess chakra. Kaguya consumed the Chakra Fruit and became immensely powerful. She was the final antagonist of Naruto Shippuden, capable of manipulating dimensions and wielding the Byakugan and Rinne Sharingan."
