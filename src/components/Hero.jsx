@@ -1,5 +1,4 @@
 import About from "./About";
-
 export default function Hero() {
   return (
     <>

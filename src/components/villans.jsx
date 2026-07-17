@@ -119,7 +119,7 @@ function Villains() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white p-10">
+    <div className="min-h-screen bg-black text-white p-10" id="villans">
       <h1 className="text-5xl font-bold text-center text-red-500 mb-10">
         Naruto Villains
       </h1>

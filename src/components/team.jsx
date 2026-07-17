@@ -101,7 +101,7 @@ export default function Teams() {
 };
 
   return (
-    <section className="min-h-screen bg-black text-white py-20 px-6">
+    <section className="min-h-screen bg-black text-white py-20 px-6" id="teams">
 
       <h1 className="text-5xl font-bold text-center text-orange-500 mb-12">
         Naruto Teams
@@ -110,7 +110,6 @@ export default function Teams() {
       <div className="flex justify-center">
 
         {teams.map((team) => (
-
           <div
             key={team.id}
             className="bg-zinc-900 rounded-3xl overflow-hidden shadow-xl border border-orange-500 max-w-sm hover:scale-105 duration-300"
@@ -148,7 +147,7 @@ export default function Teams() {
             </div>
 
           </div>
-
+          
         ))}
 
       </div>

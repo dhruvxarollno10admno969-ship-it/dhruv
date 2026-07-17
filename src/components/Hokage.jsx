@@ -1,7 +1,7 @@
 export default function Hokage() {
   return (
  <div
-        id="hokages"
+        id="hokage"
         className="flex flex-col justify-center align-center"
       >
         <div className="h-50 flex flex-col align-center justify-center">
