@@ -67,7 +67,7 @@
 ];
 export default function Characters() {
     return (
-    <section
+    <section data-aos="fade-left"
       id="characters"
       className="min-h-screen bg-black py-24 px-6"
     >

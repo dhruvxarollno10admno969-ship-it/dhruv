@@ -5,7 +5,18 @@ import Characters from "./components/characters";
 import Justu from "./components/Justu";
 import Villans from "./components/villans";
 import Team from "./components/team";
-export default function App() {
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: "ease-in-out",
+    });
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -18,3 +29,5 @@ export default function App() {
     </>
   );
 }
+
+export default App;

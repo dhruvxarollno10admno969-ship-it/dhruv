@@ -91,36 +91,25 @@ export default function Navbar() {
 
           {/* Right */}
 
-          <div className="hidden lg:flex items-center gap-6 -ml-">
-            <button
-              className="
-              text-white
-              transition-all
-              duration-300
-              hover:text-orange-400
-              hover:scale-110
-            "
-            >
-              
-              <SearchPopup />
-            </button>
+          <div className="hidden lg:flex items-center gap-6">
+            <SearchPopup />
 
             <button
               className="
-              rounded-full
-              bg-gradient-to-r
-              from-orange-500
-              to-orange-600
-              px-7
-              py-2.5
-              font-semibold
-              text-white
-              transition-all
-              duration-300
-              hover:scale-105
-              hover:shadow-[0_0_25px_rgba(249,115,22,.55)]
-              active:scale-95
-            "
+      rounded-full
+      bg-gradient-to-r
+      from-orange-500
+      to-orange-600
+      px-7
+      py-2.5
+      font-semibold
+      text-white
+      transition-all
+      duration-300
+      hover:scale-105
+      hover:shadow-[0_0_25px_rgba(249,115,22,.55)]
+      active:scale-95
+    "
             >
               Login
             </button>

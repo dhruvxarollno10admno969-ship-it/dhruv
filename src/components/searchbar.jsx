@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Search, X } from "lucide-react";
 
 export default function SearchPopup() {
   const [open, setOpen] = useState(false);
@@ -11,6 +11,7 @@ export default function SearchPopup() {
         onClick={() => setOpen(!open)}
         className="text-white transition duration-300 hover:text-orange-500 hover:scale-110"
       >
+        <Search size={24} />
       </button>
 
       {/* Popup */}

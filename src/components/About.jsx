@@ -1,6 +1,7 @@
 export default function About() {
   return (
-    <section
+    <section data-aos="fade-up" 
+    data-aos-delay="50"
   id="about"
   className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
   style={{
@@ -53,19 +54,7 @@ export default function About() {
         <h3 className="text-4xl font-bold text-orange-400">5</h3>
         <p className="text-gray-300 mt-2">Great Nations</p>
       </div>
-
     </div>
-    
-    {/* Scroll */}
-
-        <div className="absolute -bottom-50 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="flex flex-col items-center gap-2 text-white">
-            <span className="text-xs uppercase tracking-[5px]">Scroll</span>
-
-            <div className="h-10 w-[2px] rounded-full bg-orange-500"></div>
-          </div>
-        </div>
-
   </div>
 </section>
   );

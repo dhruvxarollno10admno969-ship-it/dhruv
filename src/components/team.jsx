@@ -256,7 +256,7 @@ export default function Teams() {
         },
         {
           name: "Jiraiya",
-          image: "/teams/Jiraiya.jpg",
+          image: "/teams/Jiraiya.png",
           rank: "Legendary Sannin",
           ability: "Sage Mode",
           about:
@@ -264,7 +264,7 @@ export default function Teams() {
         },
         {
           name: "Tsunade",
-          image: "/teams/Tsunade.png",
+          image: "/teams/Senju.png",
           rank: "Fifth Hokage",
           ability: "Medical Ninjutsu",
           about:
@@ -272,7 +272,7 @@ export default function Teams() {
         },
         {
           name: "Orochimaru",
-          image: "/teams/Orochimaru.png",
+          image: "/teams/orochimaru.png",
           rank: "Legendary Sannin",
           ability: "Forbidden Jutsu",
           about:

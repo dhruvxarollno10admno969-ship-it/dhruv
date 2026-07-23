@@ -1,5 +1,6 @@
 export default function Hokage() {
-  return (
+  return ( 
+    <section data-aos="flip-up">
  <div
         id="hokage"
         className="flex flex-col justify-center align-center"
@@ -89,6 +90,7 @@ export default function Hokage() {
         ))}
       </div>
       </div>
+      </section>
   );
 }
 const hokages = [
