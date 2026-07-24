@@ -256,8 +256,9 @@ export default function JutsuSection() {
         ))}
       </div>
       {selectedJutsu && (
-        <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-6">
-          <div className="relative bg-zinc-900 border border-orange-500 rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+        <div className="fixed inset-0 flex items-center justify-center bg-black/80 z-50 p-4">
+          <div className="bg-zinc-900 rounded-2xl max-w-xl w-full max-h-[100vh] overflow-hidden">
+           <div>
             <button
               onClick={() => setSelectedJutsu(null)}
               className="absolute right-5 top-5 text-4xl text-white hover:text-orange-500"
@@ -270,6 +271,8 @@ export default function JutsuSection() {
               alt={selectedJutsu.name}
               className="w-full h-80 object-cover"
             />
+           </div>
+            
 
             <div className="p-8">
               <h1 className="text-5xl font-bold text-orange-500 mb-6">

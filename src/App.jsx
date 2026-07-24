@@ -5,18 +5,15 @@ import Characters from "./components/characters";
 import Justu from "./components/Justu";
 import Villans from "./components/villans";
 import Team from "./components/team";
+import Trailer from "./components/trailer";
+
+import { Routes, Route } from "react-router-dom";
+
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
-function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-      easing: "ease-in-out",
-    });
-  }, []);
 
+function Home() {
   return (
     <>
       <Navbar />
@@ -27,6 +24,23 @@ function App() {
       <Villans />
       <Team />
     </>
+  );
+}
+
+function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: "ease-in-out",
+    });
+  }, []);
+
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/trailer" element={<Trailer />} />
+    </Routes>
   );
 }
 

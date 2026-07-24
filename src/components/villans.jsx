@@ -159,13 +159,16 @@ function Villains() {
       </div>
 
       {selected && (
-        <div className="fixed inset-0 bg-black/80 flex justify-center items-center p-5 z-50">
-          <div className="bg-zinc-900 rounded-2xl max-w-xl w-full overflow-hidden">
-            <img
+        <div className="fixed inset-0 flex items-center justify-center bg-black/80 z-[9999] p-4">
+          <div className="bg-zinc-900 rounded-2xl max-w-xl w-full max-h-[100vh] overflow-hidden">
+            <div className="flex justify-center">
+              <img
               src={selected.image}
               alt={selected.name}
-              className="w-full h-96 object-cover"
+              className="w-[60%] h-96"
             />
+            </div>
+            
 
             <div className="p-6">
               <h2 className="text-3xl font-bold text-red-500">

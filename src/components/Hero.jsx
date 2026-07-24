@@ -1,5 +1,9 @@
 import About from "./About";
+import { useNavigate } from "react-router-dom";
+
 export default function Hero() {
+  const navigate = useNavigate();
+
   return (
     <>
       {/* ================= HERO ================= */}
@@ -42,9 +46,11 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="mt-8 max-w-x1 text:lg leading-8 text-gray-300">
-  Journey through the legendary ninja world. Discover powerful Hokages,legendary <br />Jutsu,
-   iconic characters, hidden villages, and unforgettable battles.
-</p>
+                Journey through the legendary ninja world. Discover powerful
+                Hokages,legendary <br />
+                Jutsu, iconic characters, hidden villages, and unforgettable
+                battles.
+              </p>
               <div className="  gap-5 flex leading-8 mt-8">
                 <button
                   className="
@@ -67,6 +73,7 @@ export default function Hero() {
                 </button>
 
                 <button
+                  onClick={() => navigate("/trailer")}
                   className="
       rounded-full
       border
@@ -109,15 +116,12 @@ export default function Hero() {
       >
         <h2 className="text-6xl font-bold text-white"></h2>
       </section> */}
-      <About/>
+      <About />
 
       {/* ================= HOKAGES ================= */}
 
-      
-
       {/* ================= CHARACTERS ================= */}
 
-      
       {/* ================= JUTSU ================= 
 
       <section
@@ -137,3 +141,6 @@ export default function Hero() {
     </>
   );
 }
+ 
+
+
